@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 import "./App.css";
+import Weather from "./Weather.js";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -16,11 +17,13 @@ root.render(
         Create a new component called Weather which renders a "Current
         Temperature" button. Add the button here.
       </p>
+      <Weather />
 
       <h3>Challenge 2</h3>
       <p>
         When the button is clicked, alert "Coming soon..." Add the button here.
       </p>
+      <Weather />
 
       <h3>Challenge 3</h3>
       <p>
